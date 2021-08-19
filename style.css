@@ -4,14 +4,15 @@
     padding: 0;
 }
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
-
-body{
-   
+html{
+    scroll-behavior: smooth;
+}
+body{    
     font-family: 'Lato', sans-serif;    
 }
 :root{
     --amarillo:rgb(255, 195, 45); 
-    --celeste:rgba(73, 228, 228, 0.918); 
+    --celeste:rgb(73, 228, 228); 
 }
 /**************************************      PORTADA       ********************************************/
 
@@ -555,7 +556,7 @@ footer {
         flex-direction: column;
         align-items: center;
         margin-right: 20px;
-        background-color: rgb(139, 137, 137); 
+        background-color: var(--celeste); 
         position: fixed;  
         left: 0;
         top: 60px;
@@ -572,7 +573,7 @@ footer {
     
     .nav-menu-link:hover, nav-menu-link_active
     {   background:none;
-        color:rgb(24, 141, 170);
+        color:rgb(15, 95, 116);
       
     }
     .nav-toggle{
@@ -857,7 +858,7 @@ footer {
         flex-direction: column;
         align-items: center;
         margin-right: 20px;
-        background-color: rgb(139, 137, 137); 
+        background-color: var(--celeste); 
         position: fixed;  
         left: 0;
         top: 60px;
@@ -874,7 +875,7 @@ footer {
     
     .nav-menu-link:hover, nav-menu-link_active
     {   background:none;
-        color:rgb(24, 141, 170);
+        color:rgb(15, 95, 116);
       
     }
     .nav-toggle{
@@ -1242,7 +1243,7 @@ footer {
         flex-direction: column;
         align-items: center;
         margin-right: 10px;
-        background-color: rgb(139, 137, 137); 
+        background-color: var(--celeste); 
         position: fixed;  
         left: 0;
         top: 60px;
@@ -1259,7 +1260,7 @@ footer {
     
     .nav-menu-link:hover, nav-menu-link_active
     {   background:none;
-        color:rgb(24, 141, 170);
+        color:rgb(15, 95, 116);
       
     }
     .nav-toggle{
@@ -1342,10 +1343,7 @@ footer {
         width: 100%;    
         font-size: 1.2em;
     }
-    .part2_background_contB{
-        /* width: 50vw; */
-                 
-    }
+   
     
     .part2-fondo-imgb{
       width: 90%;
@@ -1451,34 +1449,5 @@ input{
 .header{
     width: 100vw;
 }
-.nav-menu{
-    flex-direction: column;
-    align-items: center;
-    margin-right: 10px;
-    background-color: rgb(139, 137, 137); 
-    position: fixed;  
-    left: 0;
-    top: 60px;
-    width: 100%;     
 
-    height: calc(100% - 60px);
-    overflow-y: auto;
-    left: 100%;
-    transition: left 0.3s;
-}
-.nav-menu-item{       
-    line-height: 70px;   
-}
-
-.nav-menu-link:hover, nav-menu-link_active
-{   background:none;
-    color:rgb(24, 141, 170);
-  
-}
-.nav-toggle{
-    display: block;
-}   
-.nav-menu_visible {
-    left: 0;
-}
 }
