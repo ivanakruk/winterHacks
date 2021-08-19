@@ -1,80 +1,51 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Resgistrate!</title>
-    <link rel="stylesheet" href="register.css" />
-
-    <link rel="icon" type="image/jpg" href="../image/logo.jpg" />
-
-    <!-- Ftont awesome-->
-    <script
-      src="https://kit.fontawesome.com/790527b83c.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-
-  <body class="body-reg">
-    <header></header>
-
-    <div class="content-reg">
-      <div class="formWraper">
-        <div class="formDiv">
-          <h2>Create una cuenta</h2>
-
-          <!--Horizontal Line-->
-
-          <p class="text-reg">Registrate con tu mail</p>
-
-          <div class="formGroup">
-            <i class="fas fa-user"></i>
-            <input type="text" name="name" id="name" placeholder="Name" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Registro!</title>
+</head>
+<body>
+    <div class="contenedor">
+      <div class="cardlogin">
+        <form action="" class="form">
+          
+          <h1>Registrarme</h1><br>
+          
+          <label for="name"> <p>Usuario</p></label>
+          <input class="input-subrallado" type="text" placeholder="ejemplo@correo.com" name="name" id="Usuario">
+          
+          <label for="Pass"><p>Contraseña</p></label>
+          <input class="input-subrallado" type="password"placeholder="Contraseña" name="Pass" id="Contraseña"> 
+          <label for="Pass"><p>Repetir contraseña</p></label>
+          <input class="input-subrallado" type="password"placeholder="Contraseña" name="Pass" id="ContraseñaRepetir"> 
+        
+  
+          <a href="#" class="hbtn hb-fill-right-br">Crear cuenta</a><br>
+       
+         <div class="tengoCuenta"><a href="">Ya tengo cuenta!</a></div>
+          <div class="socialbtn">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
           </div>
-
-          <div class="formGroup">
-            <i class="far fa-envelope"></i>
-            <input type="email" name="email" id="email" placeholder="Email" />
-          </div>
-
-          <div class="formGroup">
-            <i class="fas fa-lock"></i>
-            <input
-              type="password"
-              name="password"
-              id="password"
-              placeholder="Password"
-            />
-          </div>
-
-          <p>______</p>
-
-          <p class="text-reg">Registrate con tus Redes</p>
-          <div class="socialBtn">
-            <ul>
-              <li><img src="image/facebook.png" alt="" /></li>
-              <li><img src="image/google.png" alt="" /></li>
-              <li><img src="image/twitter.png" alt="" /></li>
-            </ul>
-          </div>
-          <hr />
-
           <div class="checkBox">
             <input type="checkbox" name="checkbox" id="checkbox" />
-            <span class="text-reg">Acepto terminos y condiciones</span>
-          </div>
-          <button class="btn-reg">Sing Up</button>
-        </div>
-
-        <div class="content_w_d">
-          <div class="welcomeDiv">
-            <h2>Bienvenido</h2>
-            <p>Registrate para recibir mas información..</p>
-            <button class="btn-reg2">Sing In</button>
-          </div>
-        </div>
+            <span class="text-reg"><a href="">Acepto terminos y condiciones</a></span>
+            </div>
+          </form>
+     
+           
+            <div class="opacidad"> 
+                <h2> Bienvenid@</h2>
+                <p> Registrate para recibir mas información!</p>
+            </div> 
       </div>
     </div>
-  </body>
+    
+</body>
 </html>
