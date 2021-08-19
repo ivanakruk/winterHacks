@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
 body{
+   /*  width: 100%; */
     font-family: 'Lato', sans-serif;    
 }
 :root{
@@ -302,13 +303,13 @@ button:hover{
 }
 
 .part3_container h3 {
-   width: 15em;
+   width: 10em;
    padding-right: 1em;
    font-size: 3em;
   color: var(--amarillo);
 } 
 .part3_container p{
-    width:30em;
+    width:12em;
     font-size: 1.2em;
 
 }
@@ -470,7 +471,7 @@ footer {
     color: #3936d1;
     cursor: pointer;
 }
-
+/*******************************************    MENU NAVBAR ***************************************************/
 .header{
     background-color: var(--amarillo);
     height: 80px;
@@ -514,7 +515,7 @@ footer {
 
 }
 .nav-menu-link:hover,nav-menu-link_active{
-    background-color: rgb(189, 190, 190);
+    background-color: rgb(28, 231, 231);
     transition: 0.5s; 
 }
 .nav-toggle {
@@ -528,51 +529,9 @@ footer {
     cursor: pointer;
 
 }
-/* @media (max-width: 768px){
-    body{
-        padding-top: 70px;
-    }
-    .header{
-        height: 60px;
-    }
-   
-    .logo {
-        font-size: 25px;
-        font-weight: bold;
-        padding: 0 20px;
-        line-height: 60px;  
-    }
-    .nav-menu{
-        flex-direction: column;
-        align-items: center;
-        margin-right: 20px;
-        background-color: rgb(139, 137, 137); 
-        position: fixed;  
-        left: 0;
-        top: 60px;
-        width: 100%;     
 
-        height: calc(100% - 60px);
-        overflow-y: auto;
-        left: 100%;
-        transition: left 0.3s;
-    }
-    .nav-menu-item{       
-        line-height: 70px;   
-    }
-    
-    .nav-menu-link:hover, nav-menu-link_active
-    {   background:none;
-        color:rgb(24, 141, 170);
-      
-    }
-    .nav-toggle{
-        display: block;
-    }   
-    .nav-menu_visible {
-        left: 0;
-    }
-} */
+/*******************************************    MEDIA QUERIES ***************************************************/
+
 
 @media (min-width: 1024px) and (max-width: 1450px) {
     input{
