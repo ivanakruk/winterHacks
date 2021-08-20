@@ -144,12 +144,15 @@ h1{
     height: 60%;
     text-align: center;
     font-size: 1.2vw;
+    line-height: 2em;
 
 }
 .quienesSomos_cont h2{
     margin-bottom: 20px;
-    font-size: 3em;
+    font-size: 2em;
 }
+
+
 
 /**************************************       SECTIONS CONTAINERS        ********************************************/
 .gral_info{
@@ -1202,14 +1205,17 @@ footer {
 
     .quienesSomos_cont{
         width: 100%;
-        padding: 0;
+        padding: 0.8em;
         font-size: 1em;
+
     }
 
     .parraf_quienes{
         font-size: 1em;
         margin-top: 0.5em;
         width: 100%;
+        line-height: 1.2em;
+        
     }
    
     .logo {
