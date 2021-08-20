@@ -14,7 +14,9 @@ body{
 .contenedor{
   height: 100%;
   background-image: url(./nena-fondoamarillo.jpg);
+  background-repeat: no-repeat; 
   background-size:100% ;
+  object-fit: contain;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -208,6 +210,9 @@ a:hover{
   .cardlogin{
     width: 60%;
   }
+  .contenedor{    
+    background-size:210% ;  
+  }  
   .form{
     width: 100%;
     height: auto;
@@ -260,6 +265,9 @@ a:hover{
     width: 100%;
     font-size: 1.2vw;
   } 
+  .contenedor{    
+    background-size:220% ;  
+  }  
   h1{
     font-size: 20px;
   }
@@ -308,6 +316,9 @@ a:hover{
   label p{
     font-size: 60px;
   }
+  .contenedor{    
+    background-size:350% ;  
+  }  
   .hbtn{
     width: 60%;
     height: auto;
