@@ -170,10 +170,10 @@ a:hover{
   color: red;
 }
 .opacidad{
-  margin-left:29%;
+  margin-left:29.7%;
  position: absolute;
   width: 15%;
-  height: 40%;
+  height: 64%;
   background-color: rgba(0, 0, 0, .5);
   z-index: 1;
   text-align: center;
@@ -199,7 +199,7 @@ a:hover{
   }
   100%{
     width:20%;
-    height: 60%;
+    height: 64%;
   }
 }
 
