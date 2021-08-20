@@ -236,10 +236,13 @@ a:hover{
   .opacidad{      
     width: 50%;      
   }
+  .checkBox {
+    display: flex;
+  }
   .checkBox .text-reg a {
     width: 100%;
     margin-top: 2px;
-    font-size: .3em;
+    font-size: 1.5em;
   }
   .opacidad:hover{
     width: 200px;
@@ -307,6 +310,11 @@ a:hover{
     height: auto;
     font-size: 1.2vw;
   } 
+  .checkBox .text-reg a {
+    width: 100px;
+    margin-top: 2px;
+    font-size: 3em;
+  }
   h1{
     font-size: 25px;
   }
@@ -326,7 +334,7 @@ a:hover{
     font-size: 10px; 
   }
   a{
-    font-size: 15px;
+    font-size: 3em;
     height: auto;
   }
   .socialbtn{
